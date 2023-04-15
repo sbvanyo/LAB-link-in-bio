@@ -1,3 +1,52 @@
 body {
   background-color: cadetblue;
 }
+
+h1 {
+  font-family: 'Merriweather', serif;
+  color: black;
+}
+
+#container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 25px;
+  border: solid white 1px;
+  border-radius: 26px;
+  width: 25rem;
+  padding: 20px 10px 20px 10px;
+}
+
+#main-image {
+  width: 20rem;
+  border: solid black 1px;
+  border-radius: 26px;
+}
+
+#buttons {
+  display: flex;
+  flex-direction: column;
+  width: 25rem;
+}
+
+.fa {
+  padding: 10px;
+  margin: 0 10px 10px 10px;
+  color: white;
+  width: 30px;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 50%;
+}
+
+.btn {
+  margin: 8px;
+  height: 50px;
+  backdrop-filter: blur(5px); 
+  background-image: linear-gradient(white, lightgray);
+  border-radius: 26px; 
+  box-shadow: inset -8px -8px 16px 0px rgba(218, 218, 218, 0.6), inset 0px 11px 28px 0px rgb(255, 255, 255);
+  font-family: 'Dongle', sans-serif;
+  font-size: 23px;
+}
